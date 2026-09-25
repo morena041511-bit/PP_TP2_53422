@@ -9,13 +9,13 @@
 
 ##  Descripción del Proyecto
 
-Este proyecto corresponde a la resolución del Trabajo Práctico N° 2 de la materia Paradigmas de Programación[cite: 7]. Consiste en la evolución y escalado de un sistema de gestión de eventos universitarios orientado a objetos en Java, incorporando características avanzadas del paradigma:
+Este proyecto corresponde a la resolución del Trabajo Práctico N° 2 de la materia Paradigmas de Programación. Consiste en la evolución y escalado de un sistema de gestión de eventos universitarios orientado a objetos en Java, incorporando características avanzadas del paradigma:
 
-1. **Modularización y Encapsulamiento:** Organización del código fuente mediante una jerarquía de paquetes (`modelo`, `modelo.actividades`, `modelo.certificacion` y `exepciones`) para proteger los componentes y estructurar correctamente las clases[cite: 1, 7].
-2. **Gestión de Errores y Excepciones:** Modelado de excepciones personalizadas como objetos (ej. `CupoExcedidoException` heredando de `Exception`), aplicando bloques `try-catch-finally` y cláusulas `throws`/`throw` para garantizar la tolerancia a fallos[cite: 2, 7].
-3. **Persistencia de Objetos:** Implementación de flujos de E/S (`FileOutputStream`, `ObjectOutputStream`, `FileInputStream`, `ObjectInputStream`) para almacenar y recuperar el estado de los eventos en disco mediante serialización y deserialización[cite: 3, 7].
-4. **Interfaces y Polimorfismo:** Uso de la interfaz `Certificable` para extender el comportamiento de subtipos específicos (Talleres y Cursos) sin alterar la jerarquía principal de actividades[cite: 4, 7].
-5. **Genéricos y Wildcards (Comodines):** Aplicación de clases/métodos parametrizados acotados (`<T extends Actividad>`) y comodines con límites superiores (`<? extends Actividad>`) para optimizar el filtrado de colecciones y el cálculo dinámico de costos[cite: 5, 7].
+1. **Modularización y Encapsulamiento:** Organización del código fuente mediante una jerarquía de paquetes (`modelo`, `modelo.actividades`, `modelo.certificacion` y `exepciones`) para proteger los componentes y estructurar correctamente las clases.
+2. **Gestión de Errores y Excepciones:** Modelado de excepciones personalizadas como objetos (ej. `CupoExcedidoException` heredando de `Exception`), aplicando bloques `try-catch-finally` y cláusulas `throws`/`throw` para garantizar la tolerancia a fallos.
+3. **Persistencia de Objetos:** Implementación de flujos de E/S (`FileOutputStream`, `ObjectOutputStream`, `FileInputStream`, `ObjectInputStream`) para almacenar y recuperar el estado de los eventos en disco mediante serialización y deserialización.
+4. **Interfaces y Polimorfismo:** Uso de la interfaz `Certificable` para extender el comportamiento de subtipos específicos (Talleres y Cursos) sin alterar la jerarquía principal de actividades.
+5. **Genéricos y Wildcards (Comodines):** Aplicación de clases/métodos parametrizados acotados (`<T extends Actividad>`) y comodines con límites superiores (`<? extends Actividad>`) para optimizar el filtrado de colecciones y el cálculo dinámico de costos.
 
 ---
 
@@ -48,9 +48,11 @@ Este proyecto corresponde a la resolución del Trabajo Práctico N° 2 de la mat
 
 4. Capturas de Ejecución del Programa
 
-![Captura 1](imagen.jpeg)
+  Las capturas de pantalla que muestran la ejecución y los resultados del programa se encuentran alojadas en este mismo repositorio. Y se pueden encontrar como:
 
-![Captura 2](imagen2.jpeg)
+  ![Captura 1] : (imagen.jpeg)
+
+  ![Captura 2] : (imagen2.jpeg)
 
  
 
