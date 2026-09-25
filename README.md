@@ -46,6 +46,12 @@ Este proyecto corresponde a la resolución del Trabajo Práctico N° 2 de la mat
 
   Haz clic derecho sobre App.java y selecciona Run 'App.main()'.
 
+4. Capturas de Ejecución del Programa
+
+![Captura 1](imagen.jpeg)
+
+![Captura 2](imagen2.jpeg)
+
  
 
       
